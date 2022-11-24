@@ -48,7 +48,7 @@ function topFunction() {
 
 function showTopShoes(startIndex, endIndex) {
 	let topProducts = document.getElementById("topProducts");
-	fetch('https://raw.githubusercontent.com/imhardikdesai/Kiks-Square-Store/master/Assets/json/topProducts.json')
+	fetch('https://raw.githubusercontent.com/ShivaniiSinghh/Sportify/main/Assets/json/topProducts.json')
 		.then(response => response.json())
 		.then(data => {
 			let shoes = data.shoes;
